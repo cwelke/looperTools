@@ -32,9 +32,8 @@ bool eventFilter::eventFails( unsigned long int run, unsigned long int lumi, uns
 		return true;
 	  }
 	}
-  }else{ 
-	return false;
   }
+  return false;
 
 }
 
